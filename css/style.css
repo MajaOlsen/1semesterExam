@@ -1,0 +1,54 @@
+@font-face {
+  font-family: italiana;
+  src: url(../Fonts/Italiana-Regular.woff2);
+}
+
+@font-face {
+  font-family: Ysabeau;
+  src: url(../Fonts/YsabeauOffice-VariableFont_wght.woff2);
+}
+
+h1 {
+  font-family: italiana;
+  font-weight: 1000;
+  font-size: 50px;
+  color: #e06c49;
+}
+
+h2 {
+  font-family: italiana;
+}
+
+h3 {
+  font-family: italiana;
+}
+
+h4 {
+  font-family: italiana;
+}
+
+p {
+  font-family: Ysabeau;
+}
+
+li {
+  font-family: Ysabeau;
+  font-weight: 700;
+}
+
+body {
+  background-color: #eaedf1;
+}
+
+.forsideh1 {
+  font-size: 480%;
+  white-space: nowrap;
+}
+
+header {
+  background-color: #e06c49;
+}
+
+footer {
+  background-color: #e06c49;
+}
