@@ -8,3 +8,93 @@
   display: flex;
   flex-direction: row;
 }
+
+img {
+  width: 100%;
+}
+
+.grid2_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 1em;
+}
+
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 1em;
+}
+
+main {
+  padding: 2em;
+}
+
+.tema3galleri {
+  padding-top: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.tema3galleri img {
+  border-radius: 5px;
+}
+
+.gallerigridScroll {
+  grid-column: 1/4;
+  position: relative;
+  width: 100%;
+}
+
+.gallerigridLink {
+  grid-column: 1/4;
+  position: relative;
+  width: 100%;
+}
+
+.gallerigridKontakt {
+  grid-column: 4/6;
+  grid-row: 1/3;
+  position: relative;
+  width: 100%;
+}
+
+.galleriimage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallerioverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.gallerioverlay .text {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: Ysabeau;
+}
+
+.gallerigridScroll:hover .gallerioverlay {
+  opacity: 1;
+}
+
+.gallerigridLink:hover .gallerioverlay {
+  opacity: 1;
+}
+
+.gallerigridKontakt:hover .gallerioverlay {
+  opacity: 1;
+}

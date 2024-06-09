@@ -17,10 +17,12 @@ h1 {
 
 h2 {
   font-family: italiana;
+  color: #e06c49;
 }
 
 h3 {
   font-family: italiana;
+  color: #e06c49;
 }
 
 h4 {
@@ -37,7 +39,7 @@ li {
 }
 
 body {
-  background-color: #eaedf1;
+  background-color: #edf5ff;
 }
 
 .forsideh1 {
@@ -46,9 +48,26 @@ body {
 }
 
 header {
-  background-color: #e06c49;
+  background-color: #d2e0ed;
 }
 
 footer {
-  background-color: #e06c49;
+  background-color: #d2e0ed;
+}
+
+.knaptilside {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff; /* Text color */
+  background-color: #e06c49; /* Button background color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Ysabeau;
+  border-radius: 7px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+.knaptilside:hover {
+  background-color: #c2563e;
 }
