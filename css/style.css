@@ -43,7 +43,7 @@ body {
 }
 
 .forsideh1 {
-  font-size: 480%;
+  font-size: 400%;
   white-space: nowrap;
 }
 
@@ -51,20 +51,16 @@ header {
   background-color: #d2e0ed;
 }
 
-footer {
-  background-color: #d2e0ed;
-}
-
 .knaptilside {
   display: inline-block;
   padding: 10px 20px;
-  color: #ffffff; /* Text color */
-  background-color: #e06c49; /* Button background color */
+  color: #ffffff;
+  background-color: #e06c49;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   font-family: Ysabeau;
-  border-radius: 7px; /* Rounded corners */
+  border-radius: 7px;
   transition: background-color 0.3s ease;
 }
 

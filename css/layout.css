@@ -19,10 +19,21 @@ img {
   padding-top: 1em;
 }
 
+.grid1_2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 1em;
+}
+
 .grid1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 1em;
+}
+
+.footer-text {
+  text-align: center;
+  color: #e06c49;
 }
 
 main {
