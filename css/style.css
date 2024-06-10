@@ -8,9 +8,13 @@
   src: url(../Fonts/YsabeauOffice-VariableFont_wght.woff2);
 }
 
+@font-face {
+  font-family: Montserrat;
+  src: url(../Fonts/Montserrat-VariableFont_wght.woff2);
+}
+
 h1 {
   font-family: italiana;
-  font-weight: 1000;
   font-size: 50px;
   color: #e06c49;
 }
@@ -43,12 +47,32 @@ body {
 }
 
 .forsideh1 {
-  font-size: 400%;
-  white-space: nowrap;
+  font-size: 100px;
+  padding-bottom: 0em;
+  font-family: Montserrat;
+  font-weight: 550;
+  text-align: center;
+}
+
+.forsideh2 {
+  font-size: 200%;
+  color: #e06c49;
+  text-align: center;
+  padding-top: 0em;
+}
+
+.forsideh3 {
+  font-size: 100%;
+  color: #e06c49;
 }
 
 header {
   background-color: #d2e0ed;
+}
+
+.indexillustration {
+  width: 100%;
+  height: auto;
 }
 
 .knaptilside {
