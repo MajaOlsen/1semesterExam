@@ -5,9 +5,26 @@
   padding: 10px;
 }
 
+.logocontainer {
+  display: flex;
+  align-items: center;
+}
+
+.logotext {
+  font-family: Montserrat;
+  font-size: 30px;
+  color: #e06c49;
+}
+
 .flex1_1 {
   display: flex;
   flex-direction: row;
+}
+
+.aboutgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5em;
 }
 
 img {
@@ -18,6 +35,8 @@ img {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding-top: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid1_2 {
@@ -26,10 +45,26 @@ img {
   padding-top: 1em;
 }
 
+.grid1_1_1 {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  text-align: center;
+}
+
 .grid1_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.indexgrid1_1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.indexsection {
+  padding-top: 2em;
 }
 
 .footer-text {
@@ -38,14 +73,15 @@ img {
 }
 
 main {
-  padding: 2em;
+  padding-right: 3.5em;
+  padding-left: 3.5em;
 }
 
 .tema3galleri {
   padding-top: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 8px;
+  gap: 12px;
 }
 
 .tema3galleri img {

@@ -8,42 +8,48 @@
     <link rel="stylesheet" href="css/layout.css" />
   </head>
   <body>
-    <header>
-      <img src="img/logo.png" alt="logo" class="logo" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Index</a></li>
-          <li>
-            <a href="About.html"
-              >Om mig
-              <li><a href="tema2.html">Tema 2 - Grundlæggende Web</a></li>
-            </a>
-          </li>
-          <li><a href="tema3.html">Tema 3 - Grundlæggende UX/UI</a></li>
-          <li><a href="tema4.html">Tema 4 - Animation</a></li>
-          <li><a href="tema5.html">Tema 5 - Grundlæggende indhold</a></li>
-        </ul>
-      </nav>
+    <header class="grid1_1">
+      <div class="logocontainer">
+        <div>
+          <a href="index.html"><img src="img/logo.png" alt="logo" class="logo" /></a>
+        </div>
+        <div><p class="logotext">BY SKJOLDGAARD</p></div>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="About.html">Om mig</a></li>
+            <li><a href="introside.html">Projekter</a></li>
+            <li><a href="tema2.html">Tema 2 - Grundlæggende Web</a></li>
+            <li><a href="tema3.html">Tema 3 - Grundlæggende UX/UI</a></li>
+            <li><a href="tema4.html">Tema 4 - Animation</a></li>
+            <li><a href="tema5.html">Tema 5 - Grundlæggende indhold</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <h1>Tema 2 - Grundlæggende Web</h1>
-      <section class="flex1_1">
+      <a href="http://byskjoldgaard.dk/computer.website/index.html" target="blank" class="knaptilside">Se siden her</a>
+
+      <section class="grid1_1">
         <div>
-          <p>
-            I Tema 2 videreudviklede jeg mit mobilsite, så det var kompatibelt på desktop. Dette prjekt var første gang vi arbejder med layout CSS og brugte class. Det var overraskende interessant at
-            lære at bruge, og da jeg først havde forståelse for hvad jeg sad og lavede, blev det underholdende. Ud af dette projekt lærte vi også om responsive designs som var nye områder for mig. Jeg
-            anvendte forskellige metoder for at sikre, at websitet fungerede både på mobile og desktop, herunder brugen af CSS-grid og flexbox til at skabe et responsivt layout. En udfordring jeg stod
-            overfor var at forstå og implementere responsivitet, hvilket jeg løste ved at øve mig og studere eksempler. Resultatet af dette projekt var på det tidspunkt meget tilfredsstillende, især
-            fordi jeg formåede at skabe en fuldt responsiv hjemmeside.
+          <p class="tema2tekst1">
+            I Tema 2 videreudviklede jeg mit mobilsite, så det var kompatibelt på desktop. Dette projekt var første gang vi arbejdede med layout CSS og brugte class. Det var overraskende interessant
+            at lære at bruge, og da jeg først havde forståelse for hvad jeg sad og lavede, blev det underholdende. Ud af dette projekt lærte vi også om responsive designs som var nye områder for mig.
+            Jeg anvendte forskellige metoder for at sikre, at websitet fungerede både på mobile og desktop, herunder brugen af CSS-grid og flexbox til at skabe et responsivt layout. En udfordring jeg
+            stod overfor var at forstå og implementere responsivitet, hvilket jeg løste ved at øve mig og studere eksempler. Resultatet af dette projekt var på det tidspunkt meget tilfredsstillende,
+            især fordi jeg formåede at skabe en fuldt responsiv hjemmeside.
           </p>
         </div>
-        <div><img src="img/testfoto.jpg" class="testfoto" /></div>
+        <div><img src="img/tema2forside.png" alt="screenshot af forside" class="tema2forside" /></div>
       </section>
       <section class="bluebg">
         <section class="flex1_1">
-          <div><img src="img/testfoto.jpg" class="testfoto" /></div>
-          <div>
-            <h3>Evaluering af Tema 2</h3>
+          <div><img src="img/tema2galleri.png" alt="galleri fra tema2" class="tema2galleri" /></div>
+          <div class="tema2tekst2">
+            <h3>Evaluering og refleksioner</h3>
             <p>
               Selv under processen med at lave vores allerførste website stødte jeg på nogle udfordringer. Nogle var sværere at overkomme end andre, men der var dele af hjemmesiden, der endte med at
               være ret tilfredsstillende.
@@ -59,11 +65,30 @@
           </div>
         </section>
       </section>
-      <section class="flex1_1">
-        <div>tekst</div>
-        <div><img src="img/testfoto.jpg" class="testfoto" /></div>
+      <section class="grid1_1">
+        <div class="tema2tekst3">
+          <p>
+            Selvom det var sjovt at kaste sig ud i kodning, var det også svært, og 80% af gangene fejlede jeg og måtte prøve at forstå efter. En ting, der var særligt udfordrende, var layout i CSS med
+            grid og flexbox. Selvom galleriet gik godt, var siden "Operativsystemer" rigtig svær at få til at se godt ud, selvom man fulgte de udleverede wireframes.
+          </p>
+
+          <p>
+            Det var en interessant opgave, der virkelig testede vores færdigheder og gav os en bedre forståelse af webudvikling. At arbejde med CSS layout krævede mange forsøg og fejl, men det var
+            også her, vi lærte mest, og det var motiverende at se fremskridt.
+          </p>
+
+          <p>
+            At det var vores første opgave gjorde det ekstra udfordrende, men også spændende. Med den rette hjælp og vejledning kom vi godt i mål med vores studiestartopgave, hvilket gav en solid
+            grundlag for de kommende projekter. Det har været en værdifuld oplevelse, der har styrket både vores tekniske færdigheder og vores evne til at arbejde målrettet og samarbejde effektivt.
+          </p>
+        </div>
+        <div><img src="img/tema2operativ.png" alt="billede fra tema 2" class="tema2operativ" /></div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-text">
+        <p>Copyright &#169;2024 By Skjoldgaard. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>

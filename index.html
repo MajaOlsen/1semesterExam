@@ -8,31 +8,41 @@
     <link rel="stylesheet" href="css/layout.css" />
   </head>
   <body>
-    <header>
-      <img src="img/logo.png" alt="logo" class="logo" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Index</a></li>
-          <li>
-            <a href="About.html"
-              >Om mig
-              <li><a href="tema2.html">Tema 2 - Grundlæggende Web</a></li>
-            </a>
-          </li>
-          <li><a href="tema3.html">Tema 3 - Grundlæggende UX/UI</a></li>
-          <li><a href="tema4.html">Tema 4 - Animation</a></li>
-          <li><a href="tema5.html">Tema 5 - Grundlæggende indhold</a></li>
-        </ul>
-      </nav>
+    <header class="grid1_1">
+      <div class="logocontainer">
+        <div>
+          <a href="index.html"><img src="img/logo.png" alt="logo" class="logo" /></a>
+        </div>
+        <div><p class="logotext">BY SKJOLDGAARD</p></div>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="About.html">Om mig</a></li>
+            <li><a href="introside.html">Projekter</a></li>
+            <li><a href="tema2.html">Tema 2 - Grundlæggende Web</a></li>
+            <li><a href="tema3.html">Tema 3 - Grundlæggende UX/UI</a></li>
+            <li><a href="tema4.html">Tema 4 - Animation</a></li>
+            <li><a href="tema5.html">Tema 5 - Grundlæggende indhold</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section class="grid1_1">
-        <div>
-          <h1 class="forsideh1">PORTFOLIO</h1>
-          <p class="forsideh2">Multimediedesignerstuderende</p>
-          <p class="forsideh3">Maja Bach Skjoldgaard Olsen</p>
-        </div>
-        <div><img src="img/SVG/illustration_portfolio.svg" class="indexillustration" /></div>
+      <section class="indexsection">
+        <section class="grid1_1">
+          <div>
+            <h1 class="forsideh1">PORTFOLIO</h1>
+            <p class="forsideh2">Multimediedesignstuderende</p>
+            <p class="forsideh3">af Maja Bach Skjoldgaard Olsen</p>
+            <div class="indexgrid1_1">
+              <div class="indexbtn"><a href="introside.html">Projekter</a></div>
+              <div class="indexbtn"><a href="About.html">Om mig</a></div>
+            </div>
+          </div>
+          <div><img src="img/SVG/illustration_portfolio.svg" class="indexillustration" /></div>
+        </section>
       </section>
     </main>
     <footer>
