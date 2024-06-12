@@ -35,8 +35,12 @@ img {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding-top: 1em;
-  justify-content: center;
-  align-items: center;
+}
+
+.grid3_1 {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: flex-end;
 }
 
 .grid1_2 {
@@ -72,6 +76,7 @@ img {
 .footer-text {
   text-align: center;
   color: #e06c49;
+  bottom: 0;
 }
 
 main {
@@ -87,7 +92,7 @@ main {
 }
 
 .tema3galleri img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .gallerigridScroll {
@@ -121,18 +126,20 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.587);
   opacity: 0;
   transition: opacity 0.5s ease;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .gallerioverlay .text {
   color: white;
-  font-size: 16px;
+  font-size: 20px;
+  padding-right: 2em;
+  padding-left: 2em;
   text-align: center;
   font-family: Ysabeau;
 }
@@ -231,4 +238,113 @@ nav {
 .ham-menu.active span:nth-child(3) {
   top: 80%;
   transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.navgrid1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1367px) {
+  .grid1_1 {
+    grid-template-columns: 1fr;
+  }
+  .indexillustration {
+    padding-top: 1.5em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forsideh1 {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 1186px) {
+  .grid1_1 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid2_1 {
+    grid-template-columns: 1fr;
+  }
+
+  .tema3tekst2 {
+    padding: 0;
+  }
+
+  .grid1_2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid3_1 {
+    grid-template-columns: 4fr 1fr;
+  }
+
+  .logotext {
+    font-size: 160%;
+  }
+}
+
+@media (max-width: 950px) {
+  .aboutgrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 710px) {
+  .indexsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
+  .forsideh1 {
+    font-size: 500%;
+  }
+
+  .indexillustration {
+    max-width: 100%;
+  }
+
+  .grid3_1 {
+    grid-template-columns: 1fr;
+  }
+
+  .gallerioverlay {
+    display: none;
+  }
+
+  .gallerioverlay .text {
+    display: none;
+  }
+
+  .tema3galleri {
+    grid-template-columns: 1fr;
+  }
+
+  .gallerigridLink {
+    grid-column: 1/2;
+  }
+
+  .gallerigridScroll {
+    grid-column: 1/2;
+  }
+
+  .gallerigridKontakt {
+    grid-column: 1/2;
+  }
+}
+
+@media (max-width: 500px) {
+  .forsideh1 {
+    font-size: 440%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
 }

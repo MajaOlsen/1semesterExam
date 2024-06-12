@@ -27,11 +27,13 @@ h1 {
   font-size: 50px;
   color: #e06c49;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h2 {
   font-family: Montserrat;
   color: #e06c49;
+  margin-bottom: 1.5em;
 }
 
 h3 {
@@ -41,6 +43,10 @@ h3 {
   margin: 0;
 }
 
+img {
+  border-radius: 10px;
+}
+
 h4 {
   font-family: Montserrat;
 }
@@ -48,6 +54,7 @@ h4 {
 p {
   font-family: Ysabeau;
   font-size: 19px;
+  line-height: 1.8em;
 }
 
 .navn {
@@ -94,6 +101,102 @@ a.navigationbtn {
   border-radius: 22px;
 }
 
+.tema3forside {
+  margin-top: 3em;
+}
+
+.tema3tekst1 {
+  margin-top: 3em;
+  margin-right: 2em;
+}
+
+.tema3img2 {
+  margin-top: 2em;
+}
+
+.tema3tekst2 {
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.tema3tekst3 {
+  padding-right: 1em;
+  padding-top: 2em;
+}
+
+.tema3img3 {
+  margin-top: 3em;
+  border-radius: 10px;
+}
+
+.tema3h2 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.tema3bundtekst {
+  text-align: center;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.tema4tekst1 {
+  margin-top: 3em;
+  margin-right: 2em;
+}
+
+.tema4tekst2 {
+  margin-left: 3em;
+  margin-right: 1em;
+}
+
+.tema4tekst3 {
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+.tema4img3 {
+  margin-top: 1em;
+}
+
+.tema4img2 {
+  padding: 1em;
+}
+
+.tema5tekst1 {
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+.tema5img1 {
+  margin-top: 1em;
+}
+
+.tema5tekst2 {
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.tema5img2 {
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.tema5h2 {
+  margin-top: 3em;
+}
+
+.tema5tekst3 {
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.tema5tekst4 {
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
 li {
   font-family: Ysabeau;
   font-weight: 700;
@@ -111,7 +214,7 @@ body {
 }
 
 .forsideh1 {
-  font-size: 100px;
+  font-size: 600%;
   margin: 0;
   font-family: Montserrat;
   font-weight: 550;
@@ -178,20 +281,24 @@ header {
 }
 
 .knaptilside {
-  display: inline-block;
-  padding: 10px 20px;
-  color: #ffffff;
-  background-color: #e06c49;
+  background-color: #edf5ff;
+  border: solid #e06c49;
+  padding: 12px 22px;
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e06c49;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  font-family: Ysabeau;
-  border-radius: 7px;
   transition: background-color 0.3s ease;
 }
 
 .knaptilside:hover {
-  background-color: #c2563e;
+  background-color: #e06c49;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(69, 84, 101, 0.24), 0 17px 50px 0 rgba(50, 64, 76, 0.19);
+  transition: 0.3s;
 }
 
 .projekter-box {
@@ -207,7 +314,8 @@ header {
 }
 
 .projekterbtn {
-  background-color: #c2563e;
+  background-color: #edf5ff;
+  border: solid #e06c49;
   padding: 10px 18px;
   border-radius: 16px;
   font-family: Montserrat;
@@ -216,14 +324,16 @@ header {
 }
 
 a.projekterbtn {
-  color: white;
+  color: #e06c49;
   text-decoration: none;
 }
 
 .projekterbtn:hover {
-  box-shadow: 0 12px 16px 0 rgba(228, 155, 135, 0.24), 0 17px 50px 0 rgba(229, 157, 109, 0.19);
-  transform: scale(1.1);
+  box-shadow: 0 12px 16px 0 rgba(69, 84, 101, 0.24), 0 17px 50px 0 rgba(50, 64, 76, 0.19);
   transition: 0.3s;
+  border: solid #e06c49;
+  background-color: #e06c49;
+  color: white;
 }
 
 .portræt {
@@ -249,13 +359,13 @@ a.projekterbtn {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1em;
-  margin-top: 1em;
+  margin-top: 3em;
 }
 
 .tema2tekst1 {
   padding-right: 2em;
   line-height: 1.8em;
-  padding-top: 1em;
+  padding-top: 3em;
 }
 
 .tema2tekst2 {
